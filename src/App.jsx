@@ -55,9 +55,9 @@ function App() {
       console.log(
         'Sending resume to CareerFlow AI backend...'
       )
-
-      const response = await fetch(
-        'http://localhost:5000/api/analyze',
+      
+        const response = await fetch(
+  'https://careerflow-ai11.onrender.com/api/analyze',
         {
           method: 'POST',
           body: formData,
